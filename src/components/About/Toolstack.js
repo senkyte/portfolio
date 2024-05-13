@@ -1,5 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { SiStreamlit } from "react-icons/si";
+import { SiTensorflow } from "react-icons/si";
 import {
   SiVisualstudiocode,
   SiPostman,
@@ -7,7 +9,14 @@ import {
   SiVercel,
   SiMacos,
 } from "react-icons/si";
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom"
+import { FaGithub } from "react-icons/fa";
+const url = '//alexanderkoh-eportfolio.streamlit.app/'
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -17,14 +26,14 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+      <Col xs={4} md={2} className="tech-icons" onClick={() => window.open(url, '_blank')} style={{cursor:'pointer'}}>
+        <SiStreamlit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <SiTensorflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <FaGithub />
       </Col>
     </Row>
   );
