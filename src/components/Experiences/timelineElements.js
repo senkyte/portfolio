@@ -1,15 +1,6 @@
 let timelineElements = [
     {
       id: 1,
-      title: "Diploma in Infocomm Technology",
-      location: "Ngee Ann Polytechnic, Singapore",
-      description:
-        "please please please please please please please please please please please please please please please please please please please please please please please please please please ",
-      date: "April 2025",
-      icon: "school",
-    },
-    {
-      id: 2,
       title: "Volunteer Work",
       location: "Multiple",
       description: "Volunteered for different causes, such as cleaning up Bishan Ang-Mo-Kio park in 2023, and Willing Hearts, where I reorganised the storage rooms and cardboards. Both were part of my Service Learning Project in SST.",
@@ -17,7 +8,7 @@ let timelineElements = [
       icon: "work",
     },
     {
-      id: 3,
+      id: 2,
       title: "vague_reference",
       location: "School of Science and Technology, Singapore",
       description:
@@ -26,7 +17,7 @@ let timelineElements = [
       icon: "work",
     },
     {
-      id: 4,
+      id: 3,
       title: "Job Shadowing @Tribe",
       location: "21 Collyer Quay, Singapore 049320",
       description:
@@ -35,7 +26,7 @@ let timelineElements = [
       icon: "work",
     },
     {
-      id: 5,
+      id: 4,
       title: "Marketing Specialist",
       location: "School Of Science and Technology, Singapore",
       description: "Ran a Carousell business with my friend where we built and sold keyboards,whilst also offering keyboard cleaning services. I was responsible for marketing, creating videos to advertise our Carousell shop.",
@@ -43,7 +34,7 @@ let timelineElements = [
       icon: "work",
     },
     {
-      id: 6,
+      id: 5,
       title: "SST INC",
       location: "School Of Science and Technology, Singapore",
       description:
@@ -52,7 +43,7 @@ let timelineElements = [
       icon: "work",
     },
     {
-      id: 7,
+      id: 6,
       title: "School Of Science and Technology, Singapore",
       location: "Singapore, Singapore",
       description:

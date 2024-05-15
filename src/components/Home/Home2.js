@@ -20,12 +20,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              to use git clone.
+              I am currently studying in the School of Science and Technology, and I enjoy coding and building things.
               <br />
               <br />I have learnt languages like
               <i>
-                <b className="purple"> C++, Javascript </b>
+                <b className="purple"> C++, Javascript, HTML and CSS </b>
               </i>
               <br />I am fluent in
               <i>

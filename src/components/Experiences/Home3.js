@@ -7,7 +7,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-
+import 'react-vertical-timeline-component/style.min.css';
 import styles from "./App2.module.css"
 import "./App2.module.css"
 import { ReactComponent as WorkIcon } from "./work.svg"
