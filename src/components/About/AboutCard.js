@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 function AboutCard() {
   return (
@@ -13,7 +14,7 @@ function AboutCard() {
             <br />
             I am currently studying at School of Science and Technology, Singapore.
             <br />
-            I have completed Cybersecurity Essentials by Cisco and Computing+ at SST. Click the Streamlit icon to see my Streamlit portfolio! 
+            I have completed <Link to="/certificates" style={{ color: '#c770f0'}}>Cybersecurity Essentials </Link> by Cisco and <Link to="/project" style={{ color: '#c770f0'}}>Computing+</Link> at SST. Click the Streamlit icon to see my Streamlit portfolio! 
             <br />
             <br />
             Apart from coding, some other activities that I love to do! 
