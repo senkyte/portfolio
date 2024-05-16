@@ -4,17 +4,8 @@ import { SiStreamlit } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
 import {
   SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
   SiMacos,
 } from "react-icons/si";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom"
 import { FaGithub } from "react-icons/fa";
 const url = '//alexanderkoh-eportfolio.streamlit.app/'
 function Toolstack() {

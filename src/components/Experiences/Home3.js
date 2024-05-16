@@ -1,12 +1,4 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
 import 'react-vertical-timeline-component/style.min.css';
 import styles from "./App2.module.css"
 import "./App2.module.css"
