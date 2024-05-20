@@ -1,3 +1,8 @@
+import tribe from '../../Assets/Projects/IMG_0019.jpg';
+import carousell from"../../Assets/Projects/carousell.png";
+import founder from "../../Assets/Projects/founder.jpeg";
+import vague from '../../Assets/Projects/vague2.png';
+import park from '../../Assets/Projects/park.png';
 let timelineElements = [
     {
       id: 1,
@@ -6,6 +11,7 @@ let timelineElements = [
       description: "Volunteered for different causes, such as cleaning up Bishan Ang-Mo-Kio park in 2023, and Willing Hearts, where I reorganised the storage rooms and cardboards. Both were part of my Service Learning Project in SST.",
       date: "2023 and 2024",
       icon: "work",
+      imgPath: park,
     },
     {
       id: 2,
@@ -15,6 +21,7 @@ let timelineElements = [
         "I found a Capture the Flag team with my friends called vague_reference. Currently, we have competed in the Hwa Chong Institution Siebersec CTF Challenge 2024, and managed to achieve 8th place overall, and First Blood for Sanity Check.",
       date: "January 2024",
       icon: "work",
+      imgPath: vague,
     },
     {
       id: 3,
@@ -24,6 +31,7 @@ let timelineElements = [
         "Was offered a job shadowing opportunity by Tribe, a Singaporean company that connects tech talents to global opportunities, using startups such as StackUp and AngelHack. I learnt how a startup company works, and the different roles each employee plays. I was assigned to look for potential Web3 communities within universities and schools, and I pitched social media marketing to them. Overall, it was an eye opening experience, one where I might be unable to find anywhere else.",
       date: "November 2023",
       icon: "work",
+      imgPath: tribe,
     },
     {
       id: 4,
@@ -32,6 +40,7 @@ let timelineElements = [
       description: "Ran a Carousell business with my friend where we built and sold keyboards,whilst also offering keyboard cleaning services. I was responsible for marketing, creating videos to advertise our Carousell shop.",
       date: "July 2023 - January 2024",
       icon: "work",
+      imgPath: carousell,
     },
     {
       id: 5,
@@ -41,6 +50,7 @@ let timelineElements = [
         "Joined SST Inc, learnt how to develop apps in React Native and IOS, and learnt how to work together in the team. Highlights: Project Serve, where our team proposed a bookshop app for SST, which unfortunately ended in failure due to privacy concerns by Ascencio.",
       date: "2021 - 2024",
       icon: "work",
+      imgPath: founder,
     },
     {
       id: 6,

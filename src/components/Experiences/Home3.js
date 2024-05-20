@@ -4,7 +4,7 @@ import styles from "./App2.module.css"
 import "./App2.module.css"
 import { ReactComponent as WorkIcon } from "./work.svg"
 import { ReactComponent as SchoolIcon } from "./school.svg"
-
+import Image from "react-bootstrap/Image";
 import timelineElements from "./timelineElements"
 
 import {
@@ -37,6 +37,7 @@ function Home3() {
               iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
               icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
             >
+              <Image src={element.imgPath} fluid /> {/* Render the image */}
               <h3 className="vertical-timeline-element-title">
                 {element.title}
               </h3>
