@@ -8,6 +8,7 @@ import {
 } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 const url = '//alexanderkoh-eportfolio.streamlit.app/'
+const url2 = 'https://github.com/senkyte'
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -26,7 +27,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiTensorflow />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" onClick={() => window.open(url2, '_blank')} style={{cursor:'pointer'}}>
         <FaGithub />
       </Col>
     </Row>

@@ -6,6 +6,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import logo from '../../Assets/logo.png';
 
 function Home2() {
   return (
@@ -18,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am currently studying in the School of Science and Technology, and I enjoy coding and building things.
+              I am currently studying in the School of Science and Technology, and I enjoy coding and building things. Some of my favourite hobbies include playing Yu-GI-Oh, playing electric guitar, and learning new skills.
               <br />
               <br />I have learnt languages like
               <i>
@@ -56,7 +57,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={logo} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
