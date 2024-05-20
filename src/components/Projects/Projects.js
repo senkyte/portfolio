@@ -25,7 +25,7 @@ function Projects() {
               imgPath={portstolio}
               isBlog={false}
               title="My Portfolio"
-              description="Used an open source portfolio template to create my portfolio which shows my skills and achievements. Credits to Soumyajit Behera for the template."
+              description="Used an open source portfolio template to create my portfolio which shows my skills and achievements, while adding my own touches to it. Credits to Soumyajit Behera for the template."
               ghLink="https://github.com/senkyte/portfolio"
             />
           </Col>

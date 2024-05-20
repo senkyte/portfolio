@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import { SiStreamlit } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
 import {
@@ -17,9 +17,12 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" onClick={() => window.open(url, '_blank')} style={{cursor:'pointer'}}>
-        <SiStreamlit />
-      </Col>
+      <OverlayTrigger placement="bottom"
+        overlay={<Tooltip>Click me!</Tooltip>}>
+        <Col xs={4} md={2} className="tech-icons" onClick={() => window.open(url, '_blank')} style={{cursor:'pointer'}}>
+          <SiStreamlit />
+        </Col>
+      </OverlayTrigger>
       <Col xs={4} md={2} className="tech-icons">
         <SiTensorflow />
       </Col>
