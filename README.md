@@ -2,9 +2,7 @@
   Alexander Koh's Portfolio<br/>
   <a href="https://alexanderkoh.vercel.app/" target="_blank">Check it out!</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+
 
 <br/>
 
