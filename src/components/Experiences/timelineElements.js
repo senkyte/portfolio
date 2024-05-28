@@ -3,6 +3,8 @@ import carousell from"../../Assets/Projects/carousell.png";
 import founder from "../../Assets/Projects/founder.jpeg";
 import vague from '../../Assets/Projects/vague2.png';
 import park from '../../Assets/Projects/park.png';
+import tkd1 from '../../Assets/Projects/tkd 03.jpg'
+import tkd2 from '../../Assets/Projects/tkd 04.jpg'
 let timelineElements = [
     {
       id: 1,
@@ -44,6 +46,24 @@ let timelineElements = [
     },
     {
       id: 5,
+      title: "Taekwondo Captain",
+      location: "School Of Science and Technology, Singapore",
+      description: "From 2023 to 2024, I was the B-Division Captain of Taekwondo CCA. This position taught me a lot of important values and skills, such as managing a performance, and dealing with troublemakers, along with how to lead a CCA. Although I was only Captain for 1 year before I had to step down, I hosted and directed many events, such as the Staff Appreciation Week performance 2022 and 2023, where I choreographed the performance along with the vice-captains, along with ADay@SST, a open house where I went around to attract people to our booth, and CCA Fair 2023 and 2024. Because of our efforts,the amount of new members in Taekwondo drastically increased, from less than 10 people in my batch, to over 20 new members in 2023, and more to come in 2024.",
+      date: "2023 - 2024",
+      icon: "work",
+      imgPath: tkd1,
+    },
+    {
+      id: 6,
+      title: "Taekwondo Vice Captain",
+      location: "School Of Science and Technology, Singapore",
+      description:"I was elected as the Vice Captain of SST Taekwondo CCA from 2022 to 2023. I oversaw many events such as the Staff Appreciation Week performance, and the ADay@SST openhouse at the end of the year. During that year, me and my friend also achieved Second Place in the National School Games, Taegeuk Yellow 7 C Division Boys Team.",
+      date: "2021 - 2024",
+      icon: "work",
+      imgPath: tkd2,
+    },
+    {
+      id: 7,
       title: "SST INC",
       location: "School Of Science and Technology, Singapore",
       description:
@@ -53,7 +73,7 @@ let timelineElements = [
       imgPath: founder,
     },
     {
-      id: 6,
+      id: 8,
       title: "School Of Science and Technology, Singapore",
       location: "Singapore, Singapore",
       description:

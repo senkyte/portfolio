@@ -9,6 +9,7 @@ import hackerrank from "../../Assets/Projects/hackerrank.png";
 import noi from "../../Assets/Projects/noi2.png";
 import ai from "../../Assets/Projects/ai.png";
 import Projects2 from "./Resume2";
+import perse2 from '../../Assets/Projects/perse2.png'
 function Projects() {
   return (
     <section>
@@ -79,7 +80,7 @@ function Projects() {
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={perse}
+                imgPath={perse2}
                 isBlog={false}
                 title="Perse Coding Competition Round 1 Merit 2024"
                 description="My greatest regret. Instead of working with my teammate, we chose to do seperate questions individually. As the competition only allowed 1 device, I was unable to debug my solutions, which ended up costing the competition."
