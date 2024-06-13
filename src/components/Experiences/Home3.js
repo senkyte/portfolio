@@ -20,7 +20,7 @@ function Home3() {
 
   return (
     <div className={styles.container}>
-      <h1 className="title">Timeline</h1>
+      <h1 className={`title ${styles['white-text']}`}>Timeline</h1>
       <VerticalTimeline>
         {timelineElements.map(element => {
           let isWorkIcon = element.icon === "work"
@@ -33,7 +33,7 @@ function Home3() {
             <VerticalTimelineElement
               key={element.key}
               date={element.date}
-              dateClassName="date"
+              dateClassName={`date ${styles['date-color']} ${styles['vertical-timeline-element-date']}`}
               iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
               icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
             >

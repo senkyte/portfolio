@@ -1,7 +1,11 @@
-
+  .date-color{
+    color: white;
+  }
   .container {
-    background-color: rgb(128, 166, 232); 
     margin-top: 60px;
+  }
+  .white-text {
+    color: white;
   }
   .title {
     font-size: 15em;
@@ -13,6 +17,11 @@
     padding-top: 0.25em;
   }
   
+  .vertical-timeline-element-date {
+    width: 100px; /* Adjust the width as needed */
+    text-align: left; /* Align the date to the right */
+  }
+
   .vertical-timeline-element-content {
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
     padding: 2em 3em !important;
