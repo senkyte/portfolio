@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import reconomy from "../../Assets/Projects/reconomy.png";
 import perform from "../../Assets/Projects/perform.jpeg";
 import iss from "../../Assets/Projects/iss.png";
+import scam from "../../Assets/Projects/scam.jpeg"
 
 function Projects2() {
   return (
@@ -41,10 +42,10 @@ function Projects2() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={reconomy}
+              imgPath={scam}
               isBlog={false}
               title="The ScamShield Initative"
-              description="Helped organise and planned a volunteer workshop that teaches elderlies to detect and prevent scams, as part of the Hwa Chong Institution Service Learning Fellowship. I was the group leader, and we taught the elderlies about common scam tactics, how to identify signs of a scam, and steps to take if they encounter one. This project helped spread awareness about scams to the vulnerable elderly community (IMAGE TO BE ADDED)"
+              description="Helped organise and planned a volunteer workshop that teaches elderlies to detect and prevent scams, as part of the Hwa Chong Institution Service Learning Fellowship. I was the group leader, and we taught the elderlies about common scam tactics, how to identify signs of a scam, and steps to take if they encounter one. This project helped spread awareness about scams to the vulnerable elderly community, and the first session took place at the NTUC Care Bukit Batok West Centre."
             />
           </Col>
         </Row>
