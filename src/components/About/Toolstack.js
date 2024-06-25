@@ -7,7 +7,6 @@ import {
   SiMacos,
 } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
-const url = '//alexanderkoh-eportfolio.streamlit.app/'
 const url2 = 'https://github.com/senkyte'
 function Toolstack() {
   return (
@@ -19,8 +18,8 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <OverlayTrigger placement="bottom"
-        overlay={<Tooltip>Click me!</Tooltip>}>
-        <Col xs={4} md={2} className="tech-icons" onClick={() => window.open(url, '_blank')} style={{cursor:'pointer'}}>
+        overlay={<Tooltip>While I was doing my DISCOVER week in Republic Polytechnic, where I was learning Generative AI, I learnt how to use Streamlit as a quick app deployment for Python.  </Tooltip>}>
+        <Col xs={4} md={2} className="tech-icons">
           <SiStreamlit />
         </Col>
       </OverlayTrigger>

@@ -77,7 +77,7 @@ let timelineElements = [
       title: "School Of Science and Technology, Singapore",
       location: "Singapore, Singapore",
       description:
-        "Took Computing+ Applied Subject, where I learnt the O-Level Computing syllabus and more, such as Machine Learning and AI, Dynamic Programming such as Resursion and Memoization, and more. Taekwondo CCA Vice Captain 2022, Taekwondo CCA Captain 2023", 
+        "Took Computing+ Applied Subject, where I learnt the O-Level Computing syllabus and more, such as Machine Learning and AI, Dynamic Programming such as Resursion and Memoization, along with Cybersecurity. Taekwondo CCA Vice Captain 2022, Taekwondo CCA Captain 2023", 
       date: "2021 - 2024",
       icon: "school",
     },

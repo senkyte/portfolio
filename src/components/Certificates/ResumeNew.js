@@ -11,6 +11,7 @@ import ai from "../../Assets/Projects/ai.png";
 import Projects2 from "./Resume2";
 import perse2 from '../../Assets/Projects/perse2.png'
 import aio from '../../Assets/Projects/aio.jpeg'
+import sieber from '../../Assets/Projects/sieber.png'
 function Projects() {
   return (
     <section>
@@ -71,7 +72,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={vague}
+                imgPath={sieber}
                 isBlog={false}
                 title=" Hwa Chong Institution Siebersec CTF Challenge 2024" 
                 description="My team, vague_reference, obtained First Blood for Sanity Check and 8th Place overall."

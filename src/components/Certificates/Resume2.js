@@ -9,6 +9,7 @@ import hackerrank from "../../Assets/Projects/hackerrank.png";
 import celebration from "../../Assets/Projects/celebration@sst.jpeg"
 import hsi from "../../Assets/Projects/hsi.jpeg"
 import eagles from "../../Assets/Projects/eagle.jpeg"
+
 function Projects2() {
   return (
     <Container fluid className="project-section">

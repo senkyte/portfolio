@@ -18,7 +18,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am currently studying in the School of Science and Technology, and I enjoy coding and building things. Some of my favourite hobbies include playing Yu-GI-Oh, playing electric guitar, and learning new skills.
+              I am currently studying in the School of Science and Technology, and I enjoy coding and building things. Some of my favourite hobbies include playing rhythm games, watching anime and reading manga, and solving challenging coding problems.
               <br />
               <br />I have learnt languages like
               <i>
@@ -30,7 +30,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are {"programming and web development"}
+              My field of interests are {"programming and web development"}
               <i>
                 <b className="purple"> </b> and
                 also in areas related to{" "}
@@ -40,18 +40,6 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also try to learn how to develop products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
