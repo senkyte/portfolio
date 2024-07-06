@@ -8,6 +8,7 @@ import portstolio from "../../Assets/Projects/portstolio.png";
 import textfight from "../../Assets/Projects/textfight.png";
 import bottle from "../../Assets/Projects/bottledetector.png";
 import Projects2 from "../Projects/Projects2"
+import textfight2 from '../../Assets/Projects/textfight2.png'
 function Projects() {
   return (
     <section>
@@ -69,6 +70,15 @@ function Projects() {
                 title="TextFighter"
                 description="A simple text fighter created in Secondary 2 using basic Python functions such as random number generation and if/else statements. The goal was to practice logical thinking and basic programming concepts."
                 // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={textfight2}
+                isBlog={false}
+                title="Text Fighter 2: SST's Inferno"
+                description="A remastered version of my original text fighter, using more advanced techniques such as classes, and object oriented programming. Now, instead of watching numbers go down, you can actually select a set of 4 moves which could be used to deal damage, debuff, buff, and heal you opponent, with an energy system for an ultimate move."
+                ghLink="https://github.com/senkyte/textfighter2" 
               />
             </Col>
           </Row>
